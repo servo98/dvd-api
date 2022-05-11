@@ -21,6 +21,9 @@ const getFilms = async (req, res) => {
   }
 };
 
+const createFilm = async (req, res) => {};
+
 export default {
   getFilms,
+  createFilm,
 };
