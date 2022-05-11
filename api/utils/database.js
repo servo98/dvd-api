@@ -16,4 +16,8 @@ console.log(connection);
 export default knex({
   client: 'pg',
   connection,
+  migrations: {
+    tableName: 'migrations',
+    directory: '../migraciones',
+  },
 });
