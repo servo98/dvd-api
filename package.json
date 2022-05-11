@@ -1,0 +1,28 @@
+{
+  "name": "dvd-api",
+  "version": "1.0.0",
+  "description": "Api de la base de datos de dvdRental",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/servo98/dvd-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/servo98/dvd-api/issues"
+  },
+  "homepage": "https://github.com/servo98/dvd-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "knex": "^2.0.0",
+    "pg": "^8.7.3"
+  }
+}
